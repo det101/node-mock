@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect src/index.js"
+  },
+  "author": "lux",
+  "license": "ISC",
+  "devDependencies": {
+    "nunjucks": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
